@@ -1,0 +1,42 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fbbfbf;
+  }
+  
+  /* Header styles */
+  h1, h2 {
+    color: #333;
+  }
+
+
+  /* Form styles */
+  form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  /* Input field styles */
+  input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 5px 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4cae4c;
+  }
