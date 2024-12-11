@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #fbbfbf;
+    background-color: #ffffff;
   }
   
   /* Header styles */
@@ -15,6 +15,11 @@ body {
   form {
     display: inline-block;
     text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
   }
   
   label {
@@ -39,4 +44,26 @@ body {
   
   button:hover {
     background-color: #4cae4c;
+  }
+
+  /* Form group */
+  form > div {
+    margin-bottom: 15px;
+  }
+
+  /* Links */
+  a {
+    color: #5cb85c;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Error message */
+  .error {
+    color: #dc3545;
+    margin-bottom: 10px;
+    font-size: 0.9em;
   }
